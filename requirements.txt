@@ -1,0 +1,21 @@
+# Web scraping
+scrapy>=2.11
+itemadapter>=0.9
+
+# Data storage & processing
+psycopg2-binary>=2.9      # PostgreSQL driver
+PyMySQL>=1.1              # MariaDB / MySQL driver (optional)
+
+# Data analysis
+pandas>=2.0
+numpy>=1.25
+matplotlib>=3.8
+scipy>=1.11
+
+# Dashboard
+streamlit>=1.35
+plotly>=5.22
+
+# Utilities
+requests>=2.31
+python-dotenv>=1.0
