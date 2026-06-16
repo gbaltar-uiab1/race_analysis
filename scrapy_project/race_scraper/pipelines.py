@@ -11,7 +11,7 @@ class CleaningPipeline:
     Drops items with missing critical fields.
     """
 
-    REQUIRED_FIELDS = ["runner_name", "finish_time", "race_year"]
+    REQUIRED_FIELDS = ["finish_time", "race_year"]
 
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
